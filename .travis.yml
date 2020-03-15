@@ -8,6 +8,4 @@ notifications:
 services:
   - postgresql
   - mongodb
-
-script:
-  - yarn run dev
+  - redis-server
