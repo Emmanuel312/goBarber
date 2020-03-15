@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "12.6.1"
+notifications:
+  email:
+    - efn@cin.ufpe.br
+
+services:
+  - postgresql
+  - mongodb
+
+script:
+  - yarn run dev
